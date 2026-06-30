@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/monarchcastletech/.github/main/profile/logo.png" alt="Monarch Castle Technologies" width="150"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monarchcastletech/.github/main/profile/logo-dark.png">
+    <img src="https://raw.githubusercontent.com/monarchcastletech/.github/main/profile/logo.png" alt="Monarch Castle Technologies" width="150"/>
+  </picture>
 
 # ⚙️ Monarch Castle Technologies
 
