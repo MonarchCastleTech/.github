@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="Monarch Castle Technologies" width="160"/>
-  <!-- CODEX: generate the Monarch Castle Technologies logo here (logo.png) -->
+  <img src="https://raw.githubusercontent.com/monarchcastletech/.github/main/profile/logo.png" alt="Monarch Castle Technologies" width="150"/>
 
 # ⚙️ Monarch Castle Technologies
 
