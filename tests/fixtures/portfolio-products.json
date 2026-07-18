@@ -1,0 +1,19 @@
+{
+  "source": {
+    "repository": "MonarchCastleTech/company-governance",
+    "path": "portfolio/products.json",
+    "commit": "effa65f847268fb251f1187f846ac9ab80ed7863"
+  },
+  "ownerOrg": "MonarchCastleTech",
+  "endorsement": "Part of Monarch Castle Technologies",
+  "products": [
+    {"id":"cloudy-shiny","name":"Cloudy&Shiny Index","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/Cloudy-Shiny","publicUrl":"https://monarchcastletech.github.io/Cloudy-Shiny/","methodologyUrl":"https://github.com/MonarchCastleTech/Cloudy-Shiny/blob/main/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"},
+    {"id":"econmap","name":"EconMap","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/econmap","publicUrl":"https://monarchcastletech.github.io/econmap/","methodologyUrl":"https://github.com/MonarchCastleTech/econmap/blob/main/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"},
+    {"id":"esgmap","name":"ESGMap","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/esgmap","publicUrl":"https://monarchcastletech.github.io/esgmap/","methodologyUrl":"https://github.com/MonarchCastleTech/esgmap/blob/master/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"},
+    {"id":"macrointel","name":"MacroIntel","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/macrointel","publicUrl":"https://monarchcastletech.github.io/macrointel/","methodologyUrl":"https://github.com/MonarchCastleTech/macrointel/blob/main/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"},
+    {"id":"milcodec-receiver","name":"MILCODEC Receiver","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/milcodec-receiver","publicUrl":"https://monarchcastletech.github.io/milcodec-receiver/","methodologyUrl":"https://github.com/MonarchCastleTech/milcodec-receiver/blob/main/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"},
+    {"id":"nuclear-energy-intelligence","name":"Nuclear Energy Intelligence","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/NuclearEnergyIntelligence","publicUrl":"https://monarchcastletech.github.io/NuclearEnergyIntelligence/","methodologyUrl":"https://github.com/MonarchCastleTech/NuclearEnergyIntelligence/blob/main/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"},
+    {"id":"prepturk","name":"PrepTurk","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/prepturk","publicUrl":"https://github.com/MonarchCastleTech/prepturk","methodologyUrl":"https://github.com/MonarchCastleTech/prepturk/blob/master/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"},
+    {"id":"supplychain","name":"Supply Chain Intelligence","ownerOrg":"MonarchCastleTech","repository":"MonarchCastleTech/supplychain","publicUrl":"https://monarchcastletech.github.io/supplychain/","methodologyUrl":"https://github.com/MonarchCastleTech/supplychain/blob/master/README.md","lifecycle":"review-required","evidenceStatus":"github-metadata-verified; logo-review-required"}
+  ]
+}

@@ -6,16 +6,16 @@ const root = new URL('..', import.meta.url);
 const read = (relative) => readFileSync(new URL(relative, root), 'utf8');
 const profile = () => read('profile/README.md');
 
-const products = [
-  ['Cloudy&Shiny Index', 'https://github.com/MonarchCastleTech/Cloudy-Shiny', 'https://github.com/MonarchCastleTech/Cloudy-Shiny/blob/main/README.md'],
-  ['EconMap', 'https://github.com/MonarchCastleTech/econmap', 'https://github.com/MonarchCastleTech/econmap/blob/main/README.md'],
-  ['ESGMap', 'https://github.com/MonarchCastleTech/esgmap', 'https://github.com/MonarchCastleTech/esgmap/blob/master/README.md'],
-  ['MacroIntel', 'https://github.com/MonarchCastleTech/macrointel', 'https://github.com/MonarchCastleTech/macrointel/blob/main/README.md'],
-  ['MILCODEC Receiver', 'https://github.com/MonarchCastleTech/milcodec-receiver', 'https://github.com/MonarchCastleTech/milcodec-receiver/blob/main/README.md'],
-  ['Nuclear Energy Intelligence', 'https://github.com/MonarchCastleTech/NuclearEnergyIntelligence', 'https://github.com/MonarchCastleTech/NuclearEnergyIntelligence/blob/main/README.md'],
-  ['PrepTurk', 'https://github.com/MonarchCastleTech/prepturk', 'https://github.com/MonarchCastleTech/prepturk/blob/master/README.md'],
-  ['Supply Chain Intelligence', 'https://github.com/MonarchCastleTech/supplychain', 'https://github.com/MonarchCastleTech/supplychain/blob/master/README.md'],
-];
+const fixture = JSON.parse(read('tests/fixtures/portfolio-products.json'));
+const { products } = fixture;
+
+test('fixture pins the canonical governance portfolio source', () => {
+  assert.equal(fixture.source.repository, 'MonarchCastleTech/company-governance');
+  assert.equal(fixture.source.commit, 'effa65f847268fb251f1187f846ac9ab80ed7863');
+  assert.equal(fixture.ownerOrg, 'MonarchCastleTech');
+  assert.equal(fixture.endorsement, 'Part of Monarch Castle Technologies');
+  assert.ok(products.length > 0);
+});
 
 test('profile states the masterbrand positioning, verified company-site fallback, and theme-aware local logo paths', () => {
   const text = profile();
@@ -29,14 +29,16 @@ test('profile states the masterbrand positioning, verified company-site fallback
   assert.match(text, /prefers-color-scheme: dark/);
 });
 
-test('profile covers every registry product with public and methodology links plus the masterbrand endorsement', () => {
+test('profile covers every fixture product with canonical public and methodology links plus the masterbrand endorsement', () => {
   const text = profile();
-  for (const [name, publicUrl, methodologyUrl] of products) {
-    assert.ok(text.includes(name), `missing product: ${name}`);
-    assert.ok(text.includes(`](${publicUrl})`), `missing product link for ${name}`);
-    assert.ok(text.includes(`](${methodologyUrl})`), `missing methodology URL for ${name}`);
+  for (const product of products) {
+    assert.equal(product.ownerOrg, fixture.ownerOrg, `wrong owner for ${product.id}`);
+    assert.ok(text.includes(product.name), `missing product: ${product.name}`);
+    if (product.publicUrl) assert.ok(text.includes(`](${product.publicUrl})`), `missing canonical public URL for ${product.name}`);
+    assert.ok(text.includes(`](${product.methodologyUrl})`), `missing methodology URL for ${product.name}`);
+    assert.ok(text.includes(`\`${product.lifecycle}\``), `missing lifecycle for ${product.name}`);
   }
-  assert.equal((text.match(/Part of Monarch Castle Technologies/g) ?? []).length, products.length);
+  assert.equal((text.match(new RegExp(fixture.endorsement, 'g')) ?? []).length, products.length);
   assert.ok(text.includes('review-required'));
   assert.ok(text.includes('Trust and security'));
   assert.ok(text.includes('Developer repositories'));

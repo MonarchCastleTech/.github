@@ -24,19 +24,19 @@ Product links and methodology references below follow the portfolio registry. En
 
 ### Market and economic decisions
 
-- [Cloudy&Shiny Index](https://github.com/MonarchCastleTech/Cloudy-Shiny) · [Methodology](https://github.com/MonarchCastleTech/Cloudy-Shiny/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
-- [EconMap](https://github.com/MonarchCastleTech/econmap) · [Methodology](https://github.com/MonarchCastleTech/econmap/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
-- [MacroIntel](https://github.com/MonarchCastleTech/macrointel) · [Methodology](https://github.com/MonarchCastleTech/macrointel/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
-- [Supply Chain Intelligence](https://github.com/MonarchCastleTech/supplychain) · [Methodology](https://github.com/MonarchCastleTech/supplychain/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [Cloudy&Shiny Index](https://monarchcastletech.github.io/Cloudy-Shiny/) · [Source](https://github.com/MonarchCastleTech/Cloudy-Shiny) · [Methodology](https://github.com/MonarchCastleTech/Cloudy-Shiny/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [EconMap](https://monarchcastletech.github.io/econmap/) · [Source](https://github.com/MonarchCastleTech/econmap) · [Methodology](https://github.com/MonarchCastleTech/econmap/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [MacroIntel](https://monarchcastletech.github.io/macrointel/) · [Source](https://github.com/MonarchCastleTech/macrointel) · [Methodology](https://github.com/MonarchCastleTech/macrointel/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [Supply Chain Intelligence](https://monarchcastletech.github.io/supplychain/) · [Source](https://github.com/MonarchCastleTech/supplychain) · [Methodology](https://github.com/MonarchCastleTech/supplychain/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
 
 ### Resource and sustainability decisions
 
-- [ESGMap](https://github.com/MonarchCastleTech/esgmap) · [Methodology](https://github.com/MonarchCastleTech/esgmap/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
-- [Nuclear Energy Intelligence](https://github.com/MonarchCastleTech/NuclearEnergyIntelligence) · [Methodology](https://github.com/MonarchCastleTech/NuclearEnergyIntelligence/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [ESGMap](https://monarchcastletech.github.io/esgmap/) · [Source](https://github.com/MonarchCastleTech/esgmap) · [Methodology](https://github.com/MonarchCastleTech/esgmap/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [Nuclear Energy Intelligence](https://monarchcastletech.github.io/NuclearEnergyIntelligence/) · [Source](https://github.com/MonarchCastleTech/NuclearEnergyIntelligence) · [Methodology](https://github.com/MonarchCastleTech/NuclearEnergyIntelligence/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
 
 ### Preparedness and signal decisions
 
-- [MILCODEC Receiver](https://github.com/MonarchCastleTech/milcodec-receiver) · [Methodology](https://github.com/MonarchCastleTech/milcodec-receiver/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [MILCODEC Receiver](https://monarchcastletech.github.io/milcodec-receiver/) · [Source](https://github.com/MonarchCastleTech/milcodec-receiver) · [Methodology](https://github.com/MonarchCastleTech/milcodec-receiver/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
 - [PrepTurk](https://github.com/MonarchCastleTech/prepturk) · [Methodology](https://github.com/MonarchCastleTech/prepturk/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
 
 ## Working with us
