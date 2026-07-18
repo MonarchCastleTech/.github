@@ -30,7 +30,9 @@ The preview is maintained as a repository asset; the live interface or generated
 
 ## Data and methodology
 
-See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the implementation files in this repository. Source dates, transformation steps, and known gaps must travel with analytical outputs.
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+
+These repository-specific sources define the methodology or provenance boundary. Source dates, transformation steps, and known gaps must travel with analytical outputs.
 
 ## Update frequency
 
@@ -46,13 +48,8 @@ Run only in a trusted development environment and review repository-specific pre
 
 ## Architecture
 
-- `CITATION.cff` — repository entry point or configuration.
-- `CONTRIBUTING.md` — repository entry point or configuration.
-- `LICENSE` — repository entry point or configuration.
-- `profile/` — implementation or data module.
-- `README.md` — repository entry point or configuration.
-- `SECURITY.md` — repository entry point or configuration.
-- `THIRD_PARTY_NOTICES.md` — repository entry point or configuration.
+- `profile/` — repository-specific implementation, data, or configuration boundary.
+- `SECURITY.md` — repository-specific implementation, data, or configuration boundary.
 
 ## Tests
 
