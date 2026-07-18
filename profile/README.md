@@ -1,47 +1,44 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/monarchcastletech/.github/main/profile/logo-dark.png">
-    <img src="https://raw.githubusercontent.com/monarchcastletech/.github/main/profile/logo.png" alt="Monarch Castle Technologies" width="150"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MonarchCastleTech/.github/main/profile/logo-dark.png">
+    <img src="https://raw.githubusercontent.com/MonarchCastleTech/.github/main/profile/logo.png" alt="Monarch Castle Technologies" width="150">
   </picture>
-
-# ⚙️ Monarch Castle Technologies
-
-**OSINT products that turn open data into decision-grade intelligence.**
-
-An operating company of **[🏰 Monarch Castle Holdings](https://github.com/MonarchCastleHoldings)**.
-
-![divisions](https://img.shields.io/badge/divisions-5-1f6feb)
-![products](https://img.shields.io/badge/products-8-brightgreen)
-![Ankara](https://img.shields.io/badge/Ankara-T%C3%BCrkiye-c8102e)
-
 </div>
 
----
+# Monarch Castle Technologies
 
-## 🧭 Divisions & products
+**Decision intelligence grounded in transparent data and calibrated forecasting.**
 
-### 🚨 Emergency Intelligence
-- [**PrepTürk**](https://github.com/monarchcastletech/prepturk) — Türkiye's sovereign offline preparedness command center
+[Company site](https://github.com/MonarchCastleTech) · [Trust and security](../SECURITY.md) · [Developer repositories](https://github.com/MonarchCastleTech?tab=repositories)
 
-### 💹 Financial Intelligence
-- [**EconMap**](https://github.com/monarchcastletech/econmap) — source-backed economic atlas
-- [**Supply Chain**](https://github.com/monarchcastletech/supplychain) — market-cap & supply-chain intelligence
-- [**Cloudy Shiny**](https://github.com/monarchcastletech/Cloudy-Shiny) — hourly market dashboard
-- [**MacroIntel**](https://github.com/monarchcastletech/macrointel) — macro-economic intelligence
+## The work
 
-### 🛡️ Defense Intelligence
-- [**Milcodec Receiver**](https://github.com/monarchcastletech/milcodec-receiver) — military codec / signal receiver
+- **Strategy** — convert uncertainty into decision options.
+- **Data** — maintain transparent, traceable evidence.
+- **Intelligence** — interpret signals, context, and implications.
+- **Forecasting** — publish probabilistic, time-bound, independently scoreable outlooks.
 
-### ⚡ Energy Intelligence
-- [**ESG Map**](https://github.com/monarchcastletech/esgmap) — national sustainability atlas
-- [**Nuclear Energy Intelligence**](https://github.com/monarchcastletech/NuclearEnergyIntelligence) — global nuclear energy intel
+## Public product portfolio
 
-### 🏭 Sectoral Intelligence
-- *coming soon*
+Product links and methodology references below follow the portfolio registry. Entries marked `review-required` have not been represented here as production claims.
 
----
+### Market and economic decisions
 
-> **Doctrine:** evidence before assertion · lawful collection only · reproducible pipelines.
-> Sister company: [🛰️ Strategic Data Company of Ankara](https://github.com/SDCofA)
+- [Cloudy&Shiny Index](https://github.com/MonarchCastleTech/Cloudy-Shiny) · [Methodology](https://github.com/MonarchCastleTech/Cloudy-Shiny/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [EconMap](https://github.com/MonarchCastleTech/econmap) · [Methodology](https://github.com/MonarchCastleTech/econmap/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [MacroIntel](https://github.com/MonarchCastleTech/macrointel) · [Methodology](https://github.com/MonarchCastleTech/macrointel/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [Supply Chain Intelligence](https://github.com/MonarchCastleTech/supplychain) · [Methodology](https://github.com/MonarchCastleTech/supplychain/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
 
-<div align="center"><sub>⚙️ Monarch Castle Technologies · a Monarch Castle Holdings company · Ankara, Türkiye</sub></div>
+### Resource and sustainability decisions
+
+- [ESGMap](https://github.com/MonarchCastleTech/esgmap) · [Methodology](https://github.com/MonarchCastleTech/esgmap/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [Nuclear Energy Intelligence](https://github.com/MonarchCastleTech/NuclearEnergyIntelligence) · [Methodology](https://github.com/MonarchCastleTech/NuclearEnergyIntelligence/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+
+### Preparedness and signal decisions
+
+- [MILCODEC Receiver](https://github.com/MonarchCastleTech/milcodec-receiver) · [Methodology](https://github.com/MonarchCastleTech/milcodec-receiver/blob/main/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+- [PrepTurk](https://github.com/MonarchCastleTech/prepturk) · [Methodology](https://github.com/MonarchCastleTech/prepturk/blob/master/README.md) · `review-required` · **Part of Monarch Castle Technologies**
+
+## Working with us
+
+Read the [contribution guidance](../CONTRIBUTING.md) before submitting a change and the [security policy](../SECURITY.md) before reporting a vulnerability. SDCofA is an [endorsed analytical unit](https://github.com/SDCofA) and product owner where the portfolio registry identifies it; it does not replace the Monarch Castle Technologies masterbrand.
